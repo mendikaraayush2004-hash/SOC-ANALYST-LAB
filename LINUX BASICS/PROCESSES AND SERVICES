@@ -1,0 +1,20 @@
+PROCESSES AND SERVICES
+
+to know all the running processes we use psaux
+
+    	ps aux 
+
+to know the live usage of CPU/RAM we use top or htop
+
+	    top (normal version)
+    	htop (_enhanced version of top)
+
+to end a process we use kill
+
+    	kill PID (_process id)
+    	kill -9 PID
+to know the system status we use systemctl (system control)
+there are many more options for systemctl  like start stop enable disable 
+
+    	systemctl status apache2 
+
