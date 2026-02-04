@@ -1,0 +1,14 @@
+ALL LOG LOCATIONS
+
+/var/log/auth.log 	-- authentication logs
+/var/log/syslig		--general system logs
+/var/log/dmesg		--kernel logs
+/var/log/apache2/	--web server logs
+
+codes for logs 
+
+journalctl -- prints in entire logh
+options for this
+	-xe -- jumps to end of the log
+	-u  -- prints specific unit 
+	 
