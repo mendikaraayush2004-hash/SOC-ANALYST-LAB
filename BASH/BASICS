@@ -40,4 +40,15 @@ to execute a shell file you need to type in
  	-no single qoutes
  	-u can use "_" for a space a space is not recommended
 
+executing a variabel is very easy wherever you want to use it just type
+
+"$NAME"
+
+PRE REGISTERED VARIABLES
+
+$USER 		name of the user
+$HOME 		path to the home directory
+$PWD 		present working directory
+$SHELL 		the path to the current shell
+$HOSTNAME 	current hostname
  ================================================================
