@@ -1,1 +1,50 @@
+  THE VERY BASICS YOU NEED TO KNOW
+to know present working directory type in
+  pwd
 
+for listing files we use ls and there are options for this 
+it is better to use all the options like alh together 
+a is for all files including hidden
+l is for long format 
+h is for human readable format
+
+	ls-alh
+
+cd to change the directory
+ 	 cd .. go back a step or go up a level 
+	 cd ~ home directory 
+	 cd / root directory 
+
+CREATING & COPYING 
+to create a file we use touch 
+	touch file.type
+to create a directory we usae mkdir in short form i would like to call this make directory
+	mkdir name 
+to create a nested directory like a directory insdie another directory 
+	mkdir -p  a/b/c
+to copy a file we use cp
+	cp file.txt file1.txt (copies things in file.txt to file1.txt)
+to copy a directory we use cp-r
+ 	cp -r directory directory2 (copies the directory to directory2 we use -r so that itb happens recursively)
+to move a file we use mv
+	mv file1 file2 
+
+
+ REMOVING
+ to remove we use rm 
+ 	rm file.txt
+ 	rm -r directory (removes recursively)
+ 	rm -rf directory (removes the diorectory forcefully dangerous to use you might delete)
+ 	
+ CONTENTS IN A FILE 
+to show contents of a file
+	 cat file.type
+to show the contents but singel page at a time 
+	less file.type
+to show the last 10 lines of a file
+	tail file.type
+	tail -f  file.type (follows the file as it keeps writing)
+	
+
+
+ 	 
