@@ -1,0 +1,43 @@
+=================================================================
+THE VERY BASICS YOU NEED TO KNOW ABOUT BASH
+====CREATING A SHELL FILE======
+you can use touch to create a file
+
+	touch fiilename.sh
+
+sh is used for shell scripting files
+after creating you have several apps or ways to edit the file
+I use sublime text 
+
+=====SYNTAX=====
+the first line of the code should always be 
+
+	#!/bin/bash
+
+these lines tells the interpreter to use bash 
+
+====PERMISSIONS=====
+before executing the file u need to change the permissions to the file 
+for this you can use 
+
+	chmod 755 filename.sh
+
+=====EXECUTION=======
+to execute a shell file you need to type in
+
+	./filename.sh
+
+=================================================================
+
+====VARIABLES====
+ to register a variable it is very easy 
+
+ 	NAME="ALICE" 
+
+ simple rules for variables
+ 	-it should all be capital
+ 	-shouldnt start with a number
+ 	-no single qoutes
+ 	-u can use "_" for a space a space is not recommended
+
+ ================================================================
