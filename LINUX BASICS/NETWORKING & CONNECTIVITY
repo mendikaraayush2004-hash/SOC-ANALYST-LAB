@@ -1,0 +1,13 @@
+NETWORKING & CONNECTIVITY 
+
+thisbshows the ip address of your and connected device like router ip 
+	ip a	
+this shows route information gateway info 
+	ip route
+this connects to the website 
+	ping websiter.com
+
+
+to lis all listening ports
+	ss -tulpn
+	netstat -tulpn
