@@ -1,0 +1,19 @@
+CHANGING PERMISSIONS OF A FILE 
+
+We use chmod to change the permissions of a file 
+    	chmod 764 file.type 
+
+In here first number is for user 
+second number is for group
+third number is for others
+this type is called binary permission system 
+in which
+4 = read
+2 = write
+1 = execute
+
+CHANGING OWNERSHIP
+to change ownership we use chown
+
+
+	   chow username:groupname file,type
