@@ -1,0 +1,8 @@
+MONITORING THINGS
+
+code		exlpanation
+uptime		shows the uptime of the device
+free -h 	shows free space 
+df -h 		shows disk space 
+du -sh 		shows the usage of a specific directory also can be used to sort 
+ 
