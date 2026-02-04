@@ -1,0 +1,15 @@
+FIND AND LOCATE 
+
+to locate a file we use locate this requires updatedb -- sudo updatedb locate -- 
+	locate filename -- this quickly finds the location of the file
+we also use find to locate the files 
+	find /path/ -options
+
+		-name  file.txt
+		-type f (_f for file d for directory)
+		-size +10M 
+		-perm 777 
+		-user username
+		-group groupname 
+
+		
