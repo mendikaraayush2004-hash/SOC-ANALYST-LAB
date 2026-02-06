@@ -15,15 +15,15 @@ read -p "Type in the secomd number : " NUM2
 echo  "Type in the operator you need to do"
 echo " "+" for addition  "-" for substraction  "/"for division  "*" for multiplication "
 
-read -p "Type the operator here: " $OPT
+read -p "Type the operator here: " OPT
 
-if [ $OPT == "+" ]; then
+if [ "$OPT" == "+" ]; then
 	echo "the addition of two number is : $(( NUM1+NUM2 ))" 
-elif [ $OPT == "-" ]; then
+elif [ "$OPT" == "-" ]; then
 	echo "the substraction of two number is : $(( NUM1-NUM2 ))" 
-elif [ $OPT == "/" ]; then
+elif [ "$OPT" == "/" ]; then
 	echo "the division of two number is : $(( NUM1/NUM2 ))" 
-elif [ $OPT == "*" ]; then
+elif [ "$OPT" == "*" ]; then
 	echo "the multiplication of two number is : $(( NUM1*NUM2 ))" 
 else 
 	echo "Please select a appropriate operator"
