@@ -1,0 +1,13 @@
+===============================================Aggresive scanning==============================================================
+
+1) option :  -A 
+   usage  : aggressive scan, OS detection, version detection, script scanning , this is very noise and easily detectable
+   example : nmap -A <target IP>
+2)option : -F
+  usage  : fast scan , scans first 100 ports , you can scan multiple IP fastly with ths
+  example :  nmap -F <target IP>
+3)option   : --open
+  usage     : shows only open ports
+  example    : nmap --open <target IP>
+
+=====================================================================================================================================
