@@ -1,0 +1,19 @@
+===============================INFO GATHERING=======================================
+1) command : whois
+   usage    : to know who the owner of the IP address is 
+   example  : whois <IP address>  (or)  whois google.com
+  
+2) command : nslookup
+   usage   : to find IP if you know name or to find name if you know the IP
+   example : normal lookup : nslookup scanme.nmap.org (this will give you the IP)
+             reverse lookup : nslookup <IP address>  (this will givew you the name of the website)
+=======================NMAP BASICS=========================================
+The nmap is pre installed in kali linux or you can simply install it from
+their website
+this are noisy commands and can be easily detected 
+basic commands :-   
+                1) scan a website :-  nmap  website.com
+                2) scan a range of IP :- nmap 192.168.0.1-254
+option:-
+      -v : this option can be used for verbose , this shows extra info while scanning
+      -A : this is for aggressive scanning
