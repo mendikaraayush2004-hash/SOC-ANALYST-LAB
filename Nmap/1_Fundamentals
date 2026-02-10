@@ -1,0 +1,21 @@
+================================================================================================================================
+Nmap is a industry standard tool for network discovery and security auditing
+-> Open source tool that sends specially crafted packets to a target IP address and analyze response to create a "map" of network
+-> USES :- network inventory  :- find out what devices are actually connected to wifi
+           security auditing  :-finding open doors hackers might use
+           Troubleshooting    :- check if firtewall is accidentally blocking your web server
+Note :- read TCP/IP concepts or ask chatgpt
+SYNTAX
+      nmap [scan logic] [options] [target]
+Big 4 :- 
+       -sS  SYN scan - sends SYN receives SYN/ACK and sends RST doesnt complete connection
+       -sT  connect scan - completes 3 way handshake
+       -sV  version scan - interogates open ports to find sockets 
+       -0   OS detection - guesses the OS 
+basic code 
+  nmap -v -A scanme.nmap.org  ---> basic example u can try
+======================PORT STATUS===============================
+ open : running and accepting connections
+ closed : accesible , no app is listening on it
+ filtered : firewall is blocking access
+ ====================================================================================================================================
