@@ -1,0 +1,7 @@
+There are many options in nmap which we can use to do advamced scannings
+
+code example : 
+        nmap -p {specific port n.o,}  192.168.1.0/24
+  -p  : only used to scan specific ports
+  -p- : scans all ports
+in this code example it will scan all IPs from 192.168.1.0 to 192.168.1.254
