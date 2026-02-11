@@ -1,0 +1,24 @@
+=================================================================================
+                        NSE [NMAP SCRIPTING ENGINE]
+=================================================================================
+this are scripts that are pre-written and can be used 
+they are written in Lua programming language which is not compullsory to learn
+but easy to learn
+the scripts have a extension of   .nse
+The location of scripts is 
+    /usr/share/nmap/scripts/
+You need to update it before running any new script it can be done by this command
+
+nmap --script -updatedb
+
+basic script command syntax
+
+nmap --script scriptname <target IP> -p <target port number> 
+
+there are many script categories 
+ auth       : default credentials or bypasses
+ vuln       : vulnerabilities
+ safe       : unlikely to crush the target
+ intrusive  : risky
+ discovery  : finds more info 
+ ==================================================================================
