@@ -1,0 +1,22 @@
+to speed up scans and bypass firewalls and hide scanning hosts we can use this methods
+
+TIMING TEMPLATE -T1 to -T5
+-T0  : (paranoid) IDS evasion and long time wait
+-T1  : (sneaky) IDS evasion and long time wait
+-T2  : (polite)slows scan to consume less bandwidth
+-T3  : (normal)default scan
+-T4  : (aggressive) fast and only use on reliable networks
+-T5  : (insane) only very fast , this can overhelm the target
+
+FRAGMENTATION 
+when you use 
+  -f
+TCP header is coverted into tiny packets 
+but modern devices have the solution for this
+
+DECOYS 
+ option : -D 
+this is used like smoke and mirror
+working : multiple IP shows on target hidning the real one
+
+nmap -D <decoy IP>,<decoy IP>,<decoy IP>, ME <Main target>
