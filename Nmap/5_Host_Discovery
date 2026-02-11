@@ -1,0 +1,13 @@
+1) option : -sn
+  usage   : scans ports and checks wether they are alive
+  working  : sends ICMP echo requests , TCP SYN to port 443 and TCP ACK to ports
+              returns a list of available IPs and MAC addresses
+  example : nmap -sn
+
+NOTE:- ICMP Internet Control Message Protocol, are you there? messages
+
+
+2) option :  -Pn
+  working   : evades windows firewalls to send ICMP messages . Skips host discovery and jumps
+            to port scanning. Also known as ping sweep
+  usage   : use when you know server exists and isn't showing normally
