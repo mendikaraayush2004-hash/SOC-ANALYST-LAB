@@ -1,0 +1,4 @@
+-sV =  This option is used for service detection
+-0  = OS detection 
+these two scans can be used together 
+and can also be used with aggressive scan 
