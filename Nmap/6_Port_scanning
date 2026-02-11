@@ -1,0 +1,28 @@
+===================PORT SCANNING============================
+it is nothing but , probing with TCP flags to know the 
+running services and respective ports
+1) TCP connect scan :- POLITE SCAN , default scan , full
+                      hanshake and RST 
+option : -sT
+note :  no root required, reliable, noisy and slower
+2)SYN scan : HALF OPEN, STEALTH scan default if you use sudo
+            half handhsake. SYN,SYN-ACK,RST.
+  optiom : -sS
+  note   : stealthier and faster, needs root privileges
+3)UDP scan : scans for connectionless services open or closed 
+            or no response means open and filtered.
+option : -sU 
+note  : extremely slow, often combined with TCP scans
+=============================================================
+                      TCP FLAGS 
+=============================================================
+in TCP header which is resposible for transmission and flow of
+packets . to target OS and service versions and check for 
+presence of firewalls and filtering
+URG -- urgent
+PSH -- push 
+FIN -- finish
+ACK -- acknowledgment 
+SYN -- synchronising
+RST -- reset
+=============================================================== 
