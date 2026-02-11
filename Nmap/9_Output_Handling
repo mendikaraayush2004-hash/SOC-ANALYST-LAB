@@ -1,0 +1,16 @@
+options    : type of output 
+-oN        : normal output - human readable 
+-oG        : greppable output - to search something
+-oX        : XML output can be used in other apps
+-oA        : all these outputs 
+
+usage : you have to run the command where you want to save the file
+
+      nmap -sV -oA 192.168.1.1  file-name  
+
+there is no need to mention the type
+
+Verbosity : the status it gives while doing the scan 
+-v   : single verbose normal info
+-vv  : more info TTL of packets
+-vvv :  more and more info 
